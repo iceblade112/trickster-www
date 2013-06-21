@@ -1,0 +1,64 @@
+body { 
+    background: blue; min-width: 700px; 
+    font-family: "Segoe UI", "Myriad Pro", Tahoma, Arial, sans-serif;
+    font-size: 13px;
+	background: url("../img/bg_main.jpg") no-repeat top center;
+}
+
+#web, #topcontainer, #menu { 
+    display: block;
+    position: relative;
+    width: 700px; margin: 0 auto;
+}
+#imga { 
+    display: inline-block; 
+    height: 135px; 
+    margin: 0 auto;
+}
+#ani1, #ani2 { display: inline-block; }
+/* Replace the URLs with your real images when you take this off of jsFiddle */
+#logo { background-image: url(../img/plogoW.png); }
+#ani1 { background-image: url(../img/3__.gif); width: 92px; height: 124px; }
+#ani2 { background-image: url(../img/2_.gif); width: 127px; height: 135px; }
+
+#logo {
+    display: inline-block;
+    width: 251px; height: 107px;
+    margin: 0 auto; padding: 0;
+    top: 0;
+}
+
+#menu {
+    background-color: #FFD900;
+    border-radius: 4px;
+    height: 20px;
+}
+
+a { text-decoration: none; }
+a:link{ color:black; } 
+a:visited{ color:black; } 
+a:hover{ color:#134896; } 
+a:active{ color:black;}
+
+#container, #login, #eemenu {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    margin: 5px 0;
+    padding: 5px;
+}
+#container { width: 690px; min-height: 400px; }
+#right { float: right; width: 250px; }
+
+#loginstat {
+    overflow: visible;
+    white-space:nowrap;
+}
+.sepl {
+    height: 1px;
+    width: 690px;
+    background: #0093FE;
+	margin: 0 auto;
+}
+
+.center { text-align: center; }

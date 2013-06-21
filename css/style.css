@@ -1,0 +1,81 @@
+body { 
+    min-width: 700px; 
+    font-family: "Segoe UI", "Myriad Pro", Tahoma, Arial, sans-serif;
+    font-size: 13px;
+    background: url("../img/bg_main.jpg") no-repeat top center;
+}
+
+#web, #topcontainer, #menu { 
+    display: block;
+    position: relative;
+    width: 700px; margin: 0 auto;
+}
+#imga { 
+    display: inline-block; 
+    height: 135px; 
+    margin: 0 auto;
+}
+#ani1, #ani2 { display: inline-block; }
+#logo { background-image: url(../img/plogoW.png); }
+#ani1 { background-image: url(../img/3__.gif); width: 92px; height: 124px; }
+#ani2 { background-image: url(../img/2_.gif); width: 127px; height: 135px; }
+
+#logo {
+    display: inline-block;
+    width: 251px; height: 107px;
+    margin: 0 auto; padding: 0;
+    top: 0;
+}
+
+#menu {
+    background-color: #FFD900;
+    border-radius: 4px;
+    height: 20px;
+}
+
+a { text-decoration: none; }
+a:link{ color:black; } 
+a:visited{ color:black; } 
+a:hover{ color:#134896; } 
+a:active{ color:black;}
+
+#container, #login, #eemenu {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    margin: 5px 0;
+    padding: 5px;
+}
+#container { width: 435px; min-height: 400px; float:left; }
+#right { float: right; width: 250px; }
+#login, #eemenu { width: 240px; margin-top: 5px; float: right; }
+
+#loginstat {
+    overflow: visible;
+    white-space:nowrap;
+}
+.sep {
+    height: 1px;
+    width: 230px;
+    background: #0093FE;
+    margin: 0 auto;
+}
+.sepx {
+    height: 1px;
+    width: 440px;
+    background: #0093FE;
+    margin: 0 auto;
+}
+.uxsep {
+    height: 1px;
+    width: 120px;
+    background: #0093FE;
+}
+.center { text-align: center; }
+
+#all {
+	position: relative;
+	bottom: 100%;
+	left: 0%;
+	font-size: 12px;
+}

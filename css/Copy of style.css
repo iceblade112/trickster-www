@@ -1,0 +1,131 @@
+body {
+	background: url("../img/bg_main.jpg") no-repeat top center;
+}
+#ani2
+{
+	position: absolute;
+	left: 60%;
+	top: -10px;
+	background-color: transparent;
+	z-index: 1;
+}
+#ani1
+{
+	position: absolute;
+	left: 33%;
+	top: -10px;
+	background-color: transparent;
+	z-index: 1;
+}
+#logimg1 {
+	position: relative;
+	width: 250px;
+	height: 25px;
+	text-align: center;
+	top: 0%;
+	left: 0%;
+	padding-top: 0px;
+	display: block;
+	font-size: 13px;
+	font-family: "Segoe UI Light", "Myriad Pro", Tahoma, Arial, sans-serif;
+	z-index: 1;
+}
+#logo {
+width: 251px;
+height: 107px;
+background: transparent url(../img/plogoW.png) no-repeat top center;
+margin: 0 auto;
+padding-top: 0px;
+top: -1px;
+display: block;
+cursor: pointer;
+}
+#menu {
+	width: 700px;
+	height: 20px;
+	border-radius: 4px;
+	text-align: center;
+	background-color: #FFD900;
+	margin: 0 auto;
+	padding-top: 0px;
+	display: block;
+	font-size: 13px;
+	font-family: "Segoe UI Light", "Myriad Pro", Tahoma, Arial, sans-serif;
+}
+#menu a { text-decoration: none; }
+#menu a:link{ color:black; } 
+#menu a:visited{ color:black; } 
+#menu a:hover{ color:#134896; } 
+#menu a:active{ color:black;}
+
+#container {
+	overflow: visible;
+	position: relative;
+	width: 400px;
+	height: 408px;
+	border-radius: 4px;
+	background-color: #FFFFFF;
+	left: 25.75%;
+	top: 500px;
+	padding-top: 0px;
+	display: block;
+	font-size: 13px;
+	font-family: "Segoe UI", "Myriad Pro", Tahoma, Arial, sans-serif;
+	z-index: 1;
+}
+
+#login {
+	overflow: visible;
+	position: relative;
+	width: 250px;
+	height: 200px;
+	border-radius: 4px;
+	background-color: #FFFFFF;
+	left: -15.8%;
+	top: 20px;
+	margin: 0 auto;
+	padding-top: 0px;
+	font-size: 13px;
+	font-family: "Segoe UI Light", "Myriad Pro", Tahoma, Arial, sans-serif;
+	z-index: 1;
+}
+.centered {
+
+	text-align: center;
+
+}
+
+#eemenu {
+	overflow: visible;
+	position: relative;
+	width: 250px;
+	height: 200px;
+	border-radius: 4px;
+	background-color: #FFFFFF;
+	left: 57%;
+	top: -180px;
+	padding-top: 0px;
+	display: block;
+	font-size: 13px;
+	font-family: "Segoe UI Light", "Myriad Pro", Tahoma, Arial, sans-serif;
+	z-index: 1;
+	white-space:nowrap;
+}
+.sep {
+	height: 1px;
+	width: 200px;
+	background: #0093FE;
+	margin: 0 auto;
+}
+.hsep {
+	width: 1px;
+	height: 200px;
+	background: #0093FE;
+	margin: 0 auto;
+}
+#loginstat {
+	overflow: visible;
+	text-align:center;
+	font-family: "Segoe UI", "Myriad Pro", Tahoma, Arial, sans-serif;
+	white-space:nowrap;
+}

@@ -1,0 +1,80 @@
+body { 
+    background: url("../img/bg_main.jpg") no-repeat top center; min-width: 700px; 
+    font-family: "Segoe UI", "Myriad Pro", Tahoma, Arial, sans-serif;
+    font-size: 13px;
+}
+
+#web, #topcontainer { 
+    display: block;
+    position: relative;
+    width: 700px; margin: 0 auto;
+}
+#imga { 
+    display: block; 
+    position: relative;
+    height: 107px;
+    width: 700px; margin: auto;
+}
+#ani1 {
+    display: inline-block;
+    margin-top: 36px;
+	background: transparent url(../img/2_.gif) no-repeat top center;
+}
+#ani2 {
+    display: inline-block;
+    margin-top: 36px;
+	background: transparent url(../img/3__.gif) no-repeat top center;
+}
+
+#logo {
+    display: inline-block;
+    width: 251px; height: 107px;
+    margin: 0 auto; padding: 0;
+    z-index: 0;
+    background: transparent url(../img/plogoW.png) no-repeat top center;
+}
+
+#menu {
+    display: block;
+    width: 700px; height: 20px;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #FFD900;
+    margin: 0 auto;
+    padding-top: 0px;
+    font-size: 13px;
+    font-family: "Segoe UI Light", "Myriad Pro", Tahoma, Arial, sans-serif;
+}
+
+#menu a { text-decoration: none; }
+#menu a:link{ color:black; } 
+#menu a:visited{ color:black; } 
+#menu a:hover{ color:#134896; } 
+#menu a:active{ color:black;}
+
+#container, #login, #eemenu {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    margin: 5px 0;
+    padding: 5px;
+}
+#container { width: 435px; min-height: 400px; }
+#right { float: right; width: 250px; }
+#login, #eemenu { width: 240px; margin-top: 5px; float: right; }
+
+.sep {
+    height: 1px;
+    width: 200px;
+    background: #0093FE;
+    margin: 0 auto;
+}
+
+#loginstat {
+    overflow: visible;
+    text-align:center;
+    white-space:nowrap;
+}
+.centered {
+	text-align: center;
+}

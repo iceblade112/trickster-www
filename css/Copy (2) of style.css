@@ -1,0 +1,59 @@
+#ani1, #ani2 { display: inline-block; }
+
+#logo { background-image: url(../img/plogoW.png); }
+#ani1 { background-image: url(../img/3__.gif); width: 92px; height: 124px; }
+#ani2 { background-image: url(../img/2_.gif); width: 127px; height: 135px; }
+
+body {
+	background: url("../img/bg_main.jpg") no-repeat top center;
+    font-family: "Segoe UI", "Myriad Pro", Tahoma, Arial, sans-serif;
+    font-size: 13px;
+}
+
+#imga { 
+    display: inline-block; 
+    height: 135px; 
+    margin: 0 auto;
+}
+
+#logo {
+    display: inline-block;
+    width: 251px; height: 107px;
+    margin: 0 auto; padding: 0;
+    top: 0;
+}
+
+#menu {
+    background-color: #FFD900;
+    border-radius: 4px;
+    height: 20px;
+}
+
+#menu a { text-decoration: none; }
+#menu a:link{ color:black; } 
+#menu a:visited{ color:black; } 
+#menu a:hover{ color:#134896; } 
+#menu a:active{ color:black;}
+
+#container, #login, #eemenu {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    padding: 5px;
+}
+#container { width: 435px; min-height: 400px; }
+#right { float: right; width: 250px; }
+#login, #eemenu { width: 240px; margin-top: 5px; float: right; }
+
+#loginstat {
+    overflow: visible;
+    white-space:nowrap;
+}
+.sep {
+    height: 1px;
+    width: 200px;
+    background: #0093FE;
+    margin: 0 auto;
+}
+
+.center { text-align: center; }

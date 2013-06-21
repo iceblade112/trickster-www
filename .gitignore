@@ -1,0 +1,7 @@
+forums
+forums/*
+admin
+admin/*
+common.php
+incl_/mysql_c.php
+
